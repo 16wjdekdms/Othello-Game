@@ -20,6 +20,7 @@ C++로 구현한 **오델로(Othello) 게임**입니다.
 ```bash
 git clone https://github.com/사용자명/저장소명.git
 cd 저장소명
+```
 ### 3️⃣ **명령어로 실행 (Windows)**
 cd 경로\저장소명
 cl othello.cpp /EHsc
