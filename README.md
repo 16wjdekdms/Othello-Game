@@ -21,10 +21,19 @@ C++로 구현한 **오델로(Othello) 게임**입니다.
 git clone https://github.com/사용자명/저장소명.git
 cd 저장소명
 ```
+### 2️⃣ **Visual Studio 2022에서 실행 (Windows)**  
+1. Visual Studio 2022 실행
+2. 파일 → 열기 → 폴더 열기 를 선택하고 클론한 프로젝트 폴더 선택
+3. Ctrl + Shift + B 또는 빌드 → 빌드 솔루션 클릭
+4. Ctrl + F5 또는 디버그 → 디버깅 없이 시작 클릭하여 실행
+   
 ### 3️⃣ **명령어로 실행 (Windows)**
+```bash
 cd 경로\저장소명
 cl othello.cpp /EHsc
 othello.exe
+```
 ### 4️⃣ **Linux/macOS (g++ 컴파일러 사용)**
+```bash
 g++ -o othello othello.cpp
 ./othello
